@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -30 143 143"><defs>
+      <linearGradient id="aspireLoopGradient" x1="0" y1="28" x2="140" y2="62" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#0a3b9c"/>
+        <stop offset=".35" stop-color="#1670dc"/>
+        <stop offset=".53" stop-color="#2ab0f5"/>
+        <stop offset=".64" stop-color="#f5c14b"/>
+        <stop offset=".82" stop-color="#eda012"/>
+        <stop offset="1" stop-color="#d98a05"/>
+      </linearGradient>
+      <linearGradient id="aspireCapGradient" x1="19" y1="2" x2="61" y2="27" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#0b306f"/>
+        <stop offset=".55" stop-color="#0d54c3"/>
+        <stop offset="1" stop-color="#2c91ed"/>
+      </linearGradient>
+      <linearGradient id="aspireGoldGradient" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#ffe091"/>
+        <stop offset=".45" stop-color="#f2b531"/>
+        <stop offset="1" stop-color="#d1950e"/>
+      </linearGradient>
+    </defs>
+      <path d="M40 64C21 64 8 53 8 39C8 24 19 15 33 15C51 15 63 30 76 43C85 52 92 58 102 58C113 58 121 50 121 38C121 27 113 19 102 19C90 19 80 27 70 37C58 49 51 64 40 64Z" fill="none" stroke="url(#aspireLoopGradient)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <g>
+        <path d="M13 11L38 0L65 12L39 25L13 11Z" fill="url(#aspireCapGradient)"/>
+        <path d="M22 15.5L37 23L53 16" fill="none" stroke="#e8aa20" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M61.5 18V27" stroke="#e8aa20" stroke-width="2"/>
+        <path d="M59 27L61.5 33.5L64 27Z" fill="#f3bd3e"/>
+        <path d="M37 23V30" stroke="#d69b1c" stroke-width="1.8"/>
+      </g>
+      <g transform="translate(108 43) rotate(35)">
+        <path d="M0 0C7 2 12 8 13 15C13 19 11 23 8 27C2 24 0 18 0 12Z" fill="url(#aspireGoldGradient)"/>
+        <path d="M6.5 12L8 15L4 18L4.5 14Z" fill="#fff3ca"/>
+        <circle cx="6" cy="10" r="1.7" fill="#102d55"/>
+      </g>
+      <path d="M119 5L121.3 12.7L129 15L121.3 17.3L119 25L116.7 17.3L109 15L116.7 12.7Z" fill="url(#aspireGoldGradient)"/>
+      <path d="M104 14C109 11 113 11 119 8" fill="none" stroke="#2b93e8" stroke-width="1.7" stroke-linecap="round" opacity=".85"/>
+      <path d="M107 18C112 15 117 15 123 12" fill="none" stroke="#e8a615" stroke-width="1.6" stroke-linecap="round" opacity=".85"/>
+    </svg>
