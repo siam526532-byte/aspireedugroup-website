@@ -3899,3 +3899,5 @@
 .blog-article-body a{color:#1670dc;text-decoration:underline;text-underline-offset:2px}
 .blog-article-body[lang="bn"] p{font-size:15px;line-height:1.85;color:#2b3f57}
 .blog-article-body[lang="bn"] h2{line-height:1.4}
+.contact-hours{margin:8px 0 6px;font-size:13px;color:#2b3f57}
+.contact-hours i{margin-right:4px}
