@@ -3901,3 +3901,9 @@
 .blog-article-body[lang="bn"] h2{line-height:1.4}
 .contact-hours{margin:8px 0 6px;font-size:13px;color:#2b3f57}
 .contact-hours i{margin-right:4px}
+.blog-article-body table{width:100%;border-collapse:collapse;margin:1rem 0 1.5rem;font-size:.95rem}
+.blog-article-body th,.blog-article-body td{border:1px solid #e3e8ef;padding:.6rem .75rem;text-align:left;vertical-align:top}
+.blog-article-body thead th{background:#f3f6fa;font-weight:600}
+.blog-article-body ul{padding-left:1.25rem;margin:.5rem 0 1rem}
+.blog-article-body li{margin:.3rem 0}
+@media(max-width:640px){.blog-article-body table{display:block;overflow-x:auto}}
