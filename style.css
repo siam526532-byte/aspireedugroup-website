@@ -12,8 +12,8 @@
       --gold-400: #f2bb3f;
       --ink: #0a1f3c;
       --line: #e9edf2;
-      --font-body: "Manrope", sans-serif;
-      --font-display: "Sora", sans-serif;
+      --font-body: "Manrope", "Noto Serif Bengali", sans-serif;
+      --font-display: "Sora", "Galada", sans-serif;
     }
 
     * { box-sizing: border-box; }
@@ -3910,8 +3910,7 @@
 @media(max-width:640px){.blog-article-body table{display:block;overflow-x:auto}}
 
 /* FONTS:START */
-h1, h2, .blog-article-body h3 { font-family: "Galada", var(--font-display) !important; font-weight: 400 !important; letter-spacing: 0 !important; line-height: 1.35 !important; }
-p, li, td, th, blockquote, .blog-article-body { font-family: "Noto Serif Bengali", Georgia, serif; }
+h1, h2, h3 { font-synthesis-weight: none; }
 /* FONTS:END */
 .dst-guides { margin: 28px 0 8px; padding: 20px 24px; border: 1px solid #e3e8ee; border-radius: 14px; background: #fff; }
 .dst-guides h3 { margin: 0 0 10px; font-size: 22px; color: var(--navy-900); }
